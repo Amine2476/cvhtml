@@ -1,9 +1,9 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(168, 168, 168);
+    background-color: gray ;
     font-family:  "Nunito",sans-serif;
-    ;color: #050505;
+    ;color: black ;
 }
 
 h1,
@@ -23,7 +23,7 @@ li::before{
     display: inline-block;
     height: 30px;
     width: 30px;
-    background-image: url("../image emojie.jpg");
+    background-image: url("../étoile.png");
     background-size: 30px 30px;
 }
 
@@ -37,16 +37,45 @@ section {
 
 
 h3{
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 
 table td {
+    
     border: 2px solid;
 }
 
 h3 {
-        background-color: rgb(0, 255, 34);
+        background-color: rgba(255, 102, 0, 0.849);
     }
 
+.Information {border: 1px solid black;
 
+}
+
+.Hardskill {border: 1px solid black;
+background-color: yellow;
+}
+.Linguistique {border: 1px solid black;
+    background-color: beige;
+
+}
+
+.Softkill {border: 1px solid black;
+    background-color: blueviolet;
+
+}
+.Diplome {border: 1px solid black;
+background-color: green;
+}
+.Experiences {border: 1px solid black;
+background-color: brown;
+}
+.Profil {border: 1px solid black;
+background-color: aqua;
+}
+
+body{
+    font-family: 'Titan One', sans-serif;
+}
