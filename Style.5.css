@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: lightblue ;
+    font-family:  "Nunito",sans-serif;
+    ;color: black ;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Dm serif Display", serif;
+
+}
+
+h1{
+    font-size: clamp(2rem, 10ve, écran);
+}
+
+li::before{
+    content: "";
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url("../étoile.png");
+    background-size: 30px 30px;
+}
+
+ul {list-style-type: none;}
+
+header,
+footer,
+section {
+    padding: 50px;
+}
+
+
+h3{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+table td {
+    
+    border: 2px solid;
+}
+
+h3 {
+        background-color: rgba(255, 102, 0, 0.849);
+    }
+
+.Information {border: 1px solid black;
+
+}
+
+.Hardskill {border: 1px solid black;
+background-color: yellow;
+}
+
+.Linguistique {border: 1px solid black;
+    background-color: beige;
+
+}
+
+.Softkill {border: 1px solid black;
+    background-color: blueviolet;
+
+}
+
+.Diplome {border: 1px solid black;
+background-color: green;
+}
+
+.Experiences {border: 1px solid black;
+background-color: brown;
+}
+
+.Profil {border: 1px solid black;
+background-color: lightblue;
+}
+
+body{
+    font-family: 'Titan One', sans-serif;
+}
+
+.sticky {
+    
+  position: sticky;
+    
+  top: 0px;
+  left: 50%;
+    
+  }
+    
